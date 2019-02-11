@@ -12,9 +12,8 @@ def input_to_index(input)
   input -= 1
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(board, position, character = "X")
-board[position] = character
-board
+board << board[position] = character
+
 end
