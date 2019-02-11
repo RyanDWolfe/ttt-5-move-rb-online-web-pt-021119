@@ -14,6 +14,5 @@ end
 
 
 def move(board, position, character = "X")
-board << board[position] = character
-
+  board << board[position] = character
 end
